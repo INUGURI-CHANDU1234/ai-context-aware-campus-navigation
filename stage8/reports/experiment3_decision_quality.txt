@@ -1,0 +1,36 @@
+STAGE 8 - EXPERIMENT 3
+EXPLAINABLE DECISION QUALITY ANALYSIS
+============================================================
+
+Objective:
+Evaluate whether the Explainable Decision Agent makes routing decisions consistent with the current campus context.
+
+Decision Rule:
+Blocked road -> alternative route should be selected.
+Open road -> current route should be retained.
+Different-destination scenario excluded because the destination itself changes.
+
+Overall Results:
+Evaluated scenarios : 7
+Correct decisions   : 7
+Decision accuracy   : 100.00%
+Average confidence  : 90.29%
+Average risk score  : 65.71
+
+Context Comparison:
+Open-road average confidence    : 85.33%
+Blocked-road average confidence : 94.00%
+Open-road average risk          : 31.67
+Blocked-road average risk       : 91.25
+
+Scenario Decisions:
+Low Crowd - Open | Expected=False | Actual=False | CORRECT
+Medium Crowd - Open | Expected=False | Actual=False | CORRECT
+High Crowd - Open | Expected=False | Actual=False | CORRECT
+Low Crowd - Engineering Blocked | Expected=True | Actual=True | CORRECT
+Medium Crowd - Engineering Blocked | Expected=True | Actual=True | CORRECT
+High Crowd - Engineering Blocked | Expected=True | Actual=True | CORRECT
+High Crowd - Central Blocked | Expected=True | Actual=True | CORRECT
+
+Conclusion:
+The Explainable Decision Agent produced decisions consistent with the defined context-aware routing rules for all evaluated scenarios. Blocked roads resulted in route changes, while open roads retained the existing route. This demonstrates decision consistency within the evaluated scenarios.

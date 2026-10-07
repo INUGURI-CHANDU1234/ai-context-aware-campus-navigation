@@ -1,0 +1,20 @@
+STAGE 8 - EXPERIMENT 2
+BLOCKED ROAD & REROUTING ANALYSIS
+============================================================
+
+Objective:
+Evaluate whether the multi-agent navigation system can detect blocked pedestrian roads and successfully select alternative routes.
+
+Results:
+Blocked-road scenarios : 4
+Successful reroutes    : 4
+Rerouting success rate : 100.00%
+
+Scenario Analysis:
+Low Crowd - Engineering Blocked | Baseline=308.0 | Rerouted=316.0 | Additional=8.0 | Changed=True
+Medium Crowd - Engineering Blocked | Baseline=455.64 | Rerouted=471.75 | Additional=16.11 | Changed=True
+High Crowd - Engineering Blocked | Baseline=619.7 | Rerouted=644.79 | Additional=25.09 | Changed=True
+High Crowd - Central Blocked | Baseline=619.7 | Rerouted=1135.9 | Additional=516.2 | Changed=True
+
+Conclusion:
+All blocked-road scenarios were successfully rerouted. The 100% rerouting success rate indicates that the navigation system can adapt when a pedestrian road becomes unavailable. The additional route cost quantifies the navigation penalty caused by road blockage.

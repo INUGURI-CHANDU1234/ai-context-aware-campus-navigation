@@ -1,0 +1,19 @@
+STAGE 8 - EXPERIMENT 1
+CROWD IMPACT ANALYSIS
+=======================================================
+
+Objective:
+Evaluate whether increasing campus crowd density causes the navigation system to increase route cost.
+
+Results:
+LOW crowd average cost    : 308.00
+MEDIUM crowd average cost : 455.64
+HIGH crowd average cost   : 619.70
+
+Percentage Changes:
+LOW -> MEDIUM : 47.94% increase
+MEDIUM -> HIGH : 36.01% increase
+LOW -> HIGH : 101.20% increase
+
+Conclusion:
+The experiment demonstrates that the navigation system adapts route cost according to campus crowd density. As crowd density increases from LOW to MEDIUM to HIGH, the average route cost increases accordingly. This supports the context-aware routing objective of the proposed multi-agent campus navigation system.

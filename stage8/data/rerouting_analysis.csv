@@ -1,0 +1,5 @@
+Scenario,Crowd,Blocked Path,Baseline Cost,Rerouted Cost,Additional Cost,Route Changed
+Low Crowd - Engineering Blocked,LOW,engineering-east,308.0,316.0,8.0,True
+Medium Crowd - Engineering Blocked,MEDIUM,engineering-east,455.64,471.75,16.11,True
+High Crowd - Engineering Blocked,HIGH,engineering-east,619.7,644.79,25.09,True
+High Crowd - Central Blocked,HIGH,central-approach,619.7,1135.9,516.2,True

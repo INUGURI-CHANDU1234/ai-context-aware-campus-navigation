@@ -1,0 +1,8 @@
+Scenario,Crowd,Blocked Path,Confidence,Risk Score,Expected Route Change,Actual Route Change,Decision Correct
+Low Crowd - Open,LOW,none,84,10,False,False,True
+Medium Crowd - Open,MEDIUM,none,84,35,False,False,True
+High Crowd - Open,HIGH,none,88,50,False,False,True
+Low Crowd - Engineering Blocked,LOW,engineering-east,92,70,True,True,True
+Medium Crowd - Engineering Blocked,MEDIUM,engineering-east,92,95,True,True,True
+High Crowd - Engineering Blocked,HIGH,engineering-east,96,100,True,True,True
+High Crowd - Central Blocked,HIGH,central-approach,96,100,True,True,True

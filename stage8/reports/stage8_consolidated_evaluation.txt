@@ -1,0 +1,58 @@
+======================================================================
+STAGE 8 - CONSOLIDATED EVALUATION REPORT
+AI-BASED CONTEXT-AWARE CAMPUS NAVIGATION SYSTEM
+======================================================================
+
+EXPERIMENT 1 - CROWD IMPACT ANALYSIS
+----------------------------------------------------------------------
+LOW crowd average route cost    : 308.00
+MEDIUM crowd average route cost : 455.64
+HIGH crowd average route cost   : 619.70
+LOW to HIGH increase            : 101.20%
+
+Finding: Increasing campus crowd density increases route cost, demonstrating context-aware adaptation.
+
+EXPERIMENT 2 - BLOCKED ROAD & REROUTING
+----------------------------------------------------------------------
+Blocked-road scenarios : 4
+Successful reroutes    : 4
+Rerouting success rate : 100.00%
+
+Additional route costs:
+Engineering + LOW    : +8.00
+Engineering + MEDIUM : +16.11
+Engineering + HIGH   : +25.09
+Central blockage     : +516.20
+
+Finding: All blocked-road scenarios were successfully rerouted, demonstrating adaptive navigation.
+
+EXPERIMENT 3 - EXPLAINABLE DECISION QUALITY
+----------------------------------------------------------------------
+Evaluated scenarios : 7
+Correct decisions   : 7
+Decision accuracy   : 100.00%
+Overall confidence  : 90.29%
+Open-road confidence: 85.33%
+Blocked confidence  : 94.00%
+Overall risk        : 65.71
+Open-road risk      : 31.67
+Blocked-road risk   : 91.25
+
+Finding: The Explainable Decision Agent produced context-consistent decisions for all evaluated cases.
+
+======================================================================
+OVERALL STAGE 8 CONCLUSION
+======================================================================
+
+The Stage 8 evaluation demonstrates three important properties of the proposed AI-based campus navigation system:
+
+1. CONTEXT ADAPTATION
+   Route cost changes according to campus crowd density.
+
+2. DYNAMIC REROUTING
+   The system successfully identifies blocked roads and selects alternative pedestrian routes.
+
+3. EXPLAINABLE DECISION MAKING
+   The decision agent produces context-consistent routing decisions with measurable confidence and risk.
+
+Overall, the evaluation supports the feasibility of multi-agent, context-aware navigation for dynamic campus environments.

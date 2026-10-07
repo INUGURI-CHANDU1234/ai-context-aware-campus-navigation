@@ -1,0 +1,15 @@
+Metric,Value
+Low Crowd Route Cost,308.0
+Medium Crowd Route Cost,455.64
+High Crowd Route Cost,619.7
+Low to High Cost Increase (%),101.2
+Blocked Road Scenarios,4
+Successful Reroutes,4
+Rerouting Success Rate (%),100.0
+Decision Evaluation Scenarios,7
+Correct Decisions,7
+Decision Accuracy (%),100.0
+Open Road Confidence (%),85.33
+Blocked Road Confidence (%),94.0
+Open Road Risk Score,31.67
+Blocked Road Risk Score,91.25

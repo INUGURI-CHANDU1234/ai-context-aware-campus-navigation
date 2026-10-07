@@ -1,0 +1,17 @@
+Experiment,Metric,Value
+Experiment 1 - Crowd Impact,LOW average route cost,308.0
+Experiment 1 - Crowd Impact,MEDIUM average route cost,455.64
+Experiment 1 - Crowd Impact,HIGH average route cost,619.7
+Experiment 1 - Crowd Impact,LOW to HIGH cost increase (%),101.2
+Experiment 2 - Rerouting,Blocked-road scenarios,4
+Experiment 2 - Rerouting,Successful reroutes,4
+Experiment 2 - Rerouting,Rerouting success rate (%),100.0
+Experiment 3 - Decision Quality,Evaluated scenarios,7
+Experiment 3 - Decision Quality,Correct decisions,7
+Experiment 3 - Decision Quality,Decision accuracy (%),100.0
+Experiment 3 - Decision Quality,Overall confidence (%),90.29
+Experiment 3 - Decision Quality,Open-road confidence (%),85.33
+Experiment 3 - Decision Quality,Blocked-road confidence (%),94.0
+Experiment 3 - Decision Quality,Overall risk score,65.71
+Experiment 3 - Decision Quality,Open-road risk score,31.67
+Experiment 3 - Decision Quality,Blocked-road risk score,91.25

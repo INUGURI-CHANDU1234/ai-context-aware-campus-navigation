@@ -1,0 +1,45 @@
+STAGE 9 - FINAL EVALUATION REPORT
+============================================================
+
+PROJECT: AI-Based Context-Aware Campus Navigator
+
+1. CROWD ADAPTATION
+----------------------------------------
+LOW crowd route cost    : 308.00
+MEDIUM crowd route cost : 455.64
+HIGH crowd route cost   : 619.70
+LOW -> HIGH increase    : 101.20%
+
+Finding: Route cost increases as campus crowd density increases, demonstrating context-aware adaptation.
+
+2. BLOCKED ROAD REROUTING
+----------------------------------------
+Blocked-road scenarios : 4
+Successful reroutes    : 4
+Rerouting success rate : 100.00%
+
+Finding: The navigation system successfully generated alternative routes for all blocked-road scenarios.
+
+3. EXPLAINABLE AI DECISION QUALITY
+----------------------------------------
+Evaluated scenarios : 7
+Correct decisions   : 7
+Decision accuracy   : 100.00%
+
+Finding: The decision agent produced context-consistent routing decisions across the evaluated scenarios.
+
+4. CONFIDENCE ANALYSIS
+----------------------------------------
+Open-road confidence    : 85.33%
+Blocked-road confidence : 94.00%
+
+5. RISK ANALYSIS
+----------------------------------------
+Open-road risk score    : 31.67
+Blocked-road risk score : 91.25
+
+6. OVERALL CONCLUSION
+----------------------------------------
+The experimental evaluation demonstrates that the AI-based campus navigation system can adapt its route selection according to changing campus context. The system responds to crowd density, detects blocked road conditions, performs dynamic rerouting, and provides explainable routing decisions.
+
+The results support the effectiveness of the proposed context-aware multi-agent navigation architecture.
